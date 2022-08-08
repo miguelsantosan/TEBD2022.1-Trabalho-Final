@@ -1,0 +1,11 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+dbr:The_Starry_Night ex:author dbr:Vincent_van_Gogh;
+    rdf:resource "https://www.artmajeur.com/medias/standard/m/a/madonnaro/artwork/2648501_Gogh.jpg" ;
+    ex:year "1889"^^xsd:gYear ;
+    rdfs:label "La Nuit étoilée"@fr .

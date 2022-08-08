@@ -1,0 +1,12 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+dbr:The_Birth_of_Venus ex:author dbr:Sandro_Botticelli;
+    rdf:resource "https://cdn.culturagenial.com/imagens/1146px-sandro-botticelli-la-nascita-di-venere-google-art-project-edited-cke.jpg" ;
+    ex:year "1483"^^xsd:gYear ;
+    ex:dimensions "1,72 m x 2,78 m" ;
+    rdfs:label "Nascita di Venere"@it .

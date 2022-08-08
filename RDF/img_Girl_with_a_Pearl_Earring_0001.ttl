@@ -1,0 +1,11 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+dbr:Girl_with_a_Pearl_Earring ex:author dbr:Johannes_Vermeer ;
+    rdf:resource "https://www.muurmeesters.nl/wp-content/uploads/www.muurmeesters.nl/2021/09/%C2%A9-MUURMEESTERS-Vermeer-Johannes-Meisje-met-de-parel-1.jpg" ;
+    rdfs:label "Girl with a Pearl Earring"@en ;
+    ex:year "1665"^^xsd:gYear .

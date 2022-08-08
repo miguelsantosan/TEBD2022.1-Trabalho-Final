@@ -1,0 +1,11 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+dbr:Mona_Lisa ex:author dbr:Leonardo_Da_Vinci;
+    rdf:resource "https://anaclaudiathorpe.ne10.uol.com.br/wp-content/uploads/2020/12/monalisa.jpg" ;
+    ex:year "1506"^^xsd:gYear ;
+    ex:dimensions "77 cm x 53 cm" .
